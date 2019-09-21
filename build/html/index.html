@@ -1,0 +1,327 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Welcome to Noob’s documentation! &mdash; Noob,SpiderTwin solution assignment Version 1.0.0 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script type="text/javascript" src="_static/jquery.js"></script>
+        <script type="text/javascript" src="_static/underscore.js"></script>
+        <script type="text/javascript" src="_static/doctools.js"></script>
+        <script type="text/javascript" src="_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="#" class="icon icon-home"> Noob,SpiderTwin solution assignment
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <!-- Local TOC -->
+              <div class="local-toc"><ul>
+<li><a class="reference internal" href="#">Welcome to Noob’s documentation!</a></li>
+<li><a class="reference internal" href="#introduction">Introduction</a></li>
+<li><a class="reference internal" href="#the-mobile-application-d-app">The Mobile Application (D-App)</a></li>
+<li><a class="reference internal" href="#authentication-and-authorisation">Authentication and Authorisation</a></li>
+<li><a class="reference internal" href="#the-wallet">The Wallet</a></li>
+<li><a class="reference internal" href="#ethereum-local-blockchain-the-peer-to-peer-network">Ethereum Local blockchain ( The peer to peer network)</a></li>
+<li><a class="reference internal" href="#smart-contracts">Smart Contracts</a></li>
+<li><a class="reference internal" href="#test-nets-and-block-explorer">Test nets and Block Explorer</a></li>
+<li><a class="reference internal" href="#tech-stack">Tech Stack</a></li>
+</ul>
+</div>
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="#">Noob,SpiderTwin solution assignment</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="#">Docs</a> &raquo;</li>
+        
+      <li>Welcome to Noob’s documentation!</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/index.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="welcome-to-noob-s-documentation">
+<h1>Welcome to Noob’s documentation!<a class="headerlink" href="#welcome-to-noob-s-documentation" title="Permalink to this headline">¶</a></h1>
+<div class="toctree-wrapper compound">
+</div>
+</div>
+<div class="section" id="introduction">
+<h1>Introduction<a class="headerlink" href="#introduction" title="Permalink to this headline">¶</a></h1>
+<p>The project is named as NOOB (NFC Operations on Blockchain) . SpiderTwin Solutions Assignment.</p>
+<p>NOOB ( NFC Operations on Blockchain) is an application which is used to track the supply chain
+management of goods using blockchain as an underlying technology. It is a highly scalable mobile
+application which can be connected to any NFC card to make all the CRUD (Create, Read, Update and Delete)
+operations. This application allows the user to scan the product which is tagged using a particular
+NFC tag and retrieve the information. Each NFC tag is priorly infused with all the information of the
+relevant product/good.</p>
+<p>Once the backend system authenticates and authorises a particular user, they can modify the data
+present on the NFC tag and hence the record is saved in the Blockchain network. This happens by creating
+a block in the blockchain network and validating it.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>In this prototype we are using Ganache as a local blockchain to simulate Ethereum Network.</p>
+</div>
+<p>Below are the main aspects of it’s architecture.</p>
+<ul class="simple">
+<li><p>The Mobile application (D-App)</p></li>
+<li><p>Authentication and Authorisation</p></li>
+<li><p>Noob Wallet</p></li>
+<li><p>Ethereum Local blockchain ( The peer to peer network)</p></li>
+<li><p>Block Explorer</p></li>
+<li><p>CRUD operations - Utilising the centralisation.</p></li>
+</ul>
+<p>Each of these are explained individually in later sections.</p>
+<img alt="_images/noob1.png" src="_images/noob1.png" />
+</div>
+<div class="section" id="the-mobile-application-d-app">
+<h1>The Mobile Application (D-App)<a class="headerlink" href="#the-mobile-application-d-app" title="Permalink to this headline">¶</a></h1>
+<p>Noob is a mobile application, a cross platform native app which is built using Angular ionic framework.
+This will be the primary application to scan the NFC card and connect to the blockchain network.</p>
+<p>Screens</p>
+<ul class="simple">
+<li><p>One time Signup screen (Using fingerprint+ Email)</p></li>
+<li><p>Login (Primary fingerprint)</p></li>
+<li><p>NFC Scanner screen (Used after enabling NFC plugin in mobile settings)</p></li>
+<li><p>Data Loader screen (Shows the accociated data)</p></li>
+<li><p>Update and Delete screen ( to modify the data)</p></li>
+</ul>
+<p>Functionalities</p>
+<ul class="simple">
+<li><p>NFC Scanner</p></li>
+<li><p>Connection to Ethereum Blockchain Network</p></li>
+</ul>
+<p>The D-App communicates with the NFC scanner, fetchs all the data(Read) and pushes it to the local DB.
+Parallely it is conneted with the Wallet which is a non-determinstic wallet to store all the transactions.
+Each of the transaction is accociated with a block. For example if a user is authenticated and he/she updates the data of the good/product
+it is a transaction inside a blockchain. And Once the block is mined it get connected to the chain of blocks.</p>
+<img alt="_images/noob2.jpg" src="_images/noob2.jpg" />
+<p>Identity Association</p>
+<p>Identity association is one of the most important part of the application when we want to associate a token to a particular
+block. Here in this project I use ETH-721 token. For example if a user1 authenticates himself and tries to change the data in the system.
+Once he saves the data in the application his identity ( private +public key combination) gets associated to the block. This creates a chain of blocks plus
+chain of identities.</p>
+<img alt="_images/noob3.jpg" src="_images/noob3.jpg" />
+<p>Application backend</p>
+<p>The application backend is built using micorservies approach. Each micorservice is wrapped up with online services such as
+RabbitMQ as a service, MongoDB as a service and hosted in docker. This spins up a container which is managed by Kubernetes.
+This API is a centralised system which is used to pass data to the blockchain network.
+.. image:: images/noob4.jpg</p>
+</div>
+<div class="section" id="authentication-and-authorisation">
+<h1>Authentication and Authorisation<a class="headerlink" href="#authentication-and-authorisation" title="Permalink to this headline">¶</a></h1>
+<p>Authentication is used to authenticate a user based on its fingerprint. On signup the app takes fingerprint and stores it in local DB. This is the first level
+of authentication. In the second level, the app uses API authentication which has JWT token auth.</p>
+<p>Authorisation is role based, the app screen changes according to the role. For example employees, distributors, service providers, authorities etc.
+Here we use IAM (Identity Access Management) to create roles and scopes.</p>
+<img alt="_images/noob5.jpg" src="_images/noob5.jpg" />
+</div>
+<div class="section" id="the-wallet">
+<h1>The Wallet<a class="headerlink" href="#the-wallet" title="Permalink to this headline">¶</a></h1>
+<p>Wallet is a non-determinstic state of Ethereum which is craeated by combining your public and private keys together.
+Wallet stores all the transactions which you do in the blockchain. For example if you update a block you have a transaction and a next block associated with it.
+For each transaction you pay a very small amount of ethers with a fixed gas value. Each one of them happens using smart contracts.</p>
+</div>
+<div class="section" id="ethereum-local-blockchain-the-peer-to-peer-network">
+<h1>Ethereum Local blockchain ( The peer to peer network)<a class="headerlink" href="#ethereum-local-blockchain-the-peer-to-peer-network" title="Permalink to this headline">¶</a></h1>
+<p>** Read on a blockchain is free, but write costs Gas**</p>
+<p>In this project the ethereum local blockchain is simulated using Ganche from Truffle suite. On top of the blockchain we use smart contracts written in Solidity to make transactions.
+This is a 2 step process in this project.</p>
+<ul class="simple">
+<li><p>NFC Data Genesis block - Once the mobile application reads the NFC tag. It creates a genesis block, the first originated block. Before creation of the block, it makes a transaction which is essential</p></li>
+</ul>
+<p>to mine the block. This is the first step of read only processs. Next, the ERC-721 token is attached to the block, to uniquely identify it. This identity along with other information
+such as the properties of the good/product is maintained in the block.</p>
+<ul class="simple">
+<li><p>Recurrent blocks - Now whenever a user is authenticated and the supply chain wants to change the status of the product/good, it is a write on a blockchain network. This again creates a new block which is mined and</p></li>
+</ul>
+<p>associated to its genesis or the predecessor block. Again the ERC-721 token of that user who modified the block is attached to it.</p>
+</div>
+<div class="section" id="smart-contracts">
+<h1>Smart Contracts<a class="headerlink" href="#smart-contracts" title="Permalink to this headline">¶</a></h1>
+<p>All the interactions with the blockchain happens through smart contracts written in solidity and python. For example to
+create a transaction .</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">account_1</span> <span class="o">=</span> <span class="nb">str</span><span class="p">(</span><span class="n">res</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="s2">&quot;account_address&quot;</span><span class="p">])</span>
+<span class="n">account_2</span> <span class="o">=</span> <span class="n">data</span><span class="o">.</span><span class="n">receiver_address</span>
+<span class="n">private_key</span> <span class="o">=</span> <span class="nb">str</span><span class="p">(</span><span class="n">res</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="s2">&quot;account_private_key&quot;</span><span class="p">])</span>
+<span class="n">nonce</span> <span class="o">=</span> <span class="n">web3</span><span class="o">.</span><span class="n">eth</span><span class="o">.</span><span class="n">getTransactionCount</span><span class="p">(</span><span class="n">account_1</span><span class="p">)</span>
+<span class="nb">print</span> <span class="p">(</span><span class="n">account_1</span><span class="p">,</span><span class="n">account_2</span><span class="p">,</span><span class="n">data</span><span class="o">.</span><span class="n">amount</span><span class="p">)</span>
+<span class="n">tx</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="s1">&#39;nonce&#39;</span><span class="p">:</span> <span class="n">nonce</span><span class="p">,</span>
+    <span class="s1">&#39;to&#39;</span><span class="p">:</span> <span class="n">account_2</span><span class="p">,</span>
+    <span class="s1">&#39;value&#39;</span><span class="p">:</span> <span class="n">web3</span><span class="o">.</span><span class="n">toWei</span><span class="p">(</span><span class="n">data</span><span class="o">.</span><span class="n">amount</span><span class="p">,</span> <span class="s1">&#39;ether&#39;</span><span class="p">),</span>
+    <span class="s1">&#39;gas&#39;</span><span class="p">:</span> <span class="mi">2000000</span><span class="p">,</span>
+    <span class="s1">&#39;gasPrice&#39;</span><span class="p">:</span> <span class="n">web3</span><span class="o">.</span><span class="n">toWei</span><span class="p">(</span><span class="s1">&#39;10&#39;</span><span class="p">,</span> <span class="s1">&#39;gwei&#39;</span><span class="p">)</span>
+<span class="p">}</span>
+<span class="n">signed_tx</span> <span class="o">=</span> <span class="n">web3</span><span class="o">.</span><span class="n">eth</span><span class="o">.</span><span class="n">account</span><span class="o">.</span><span class="n">signTransaction</span><span class="p">(</span><span class="n">tx</span><span class="p">,</span> <span class="n">private_key</span><span class="p">)</span>
+<span class="n">tx_hash</span> <span class="o">=</span> <span class="n">web3</span><span class="o">.</span><span class="n">eth</span><span class="o">.</span><span class="n">sendRawTransaction</span><span class="p">(</span><span class="n">signed_tx</span><span class="o">.</span><span class="n">rawTransaction</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="test-nets-and-block-explorer">
+<h1>Test nets and Block Explorer<a class="headerlink" href="#test-nets-and-block-explorer" title="Permalink to this headline">¶</a></h1>
+<p>In this project I will use Etherscan as a block explorer and Rinkyby test net to simulate the full blockchain.</p>
+</div>
+<div class="section" id="tech-stack">
+<h1>Tech Stack<a class="headerlink" href="#tech-stack" title="Permalink to this headline">¶</a></h1>
+<ul class="simple">
+<li><p>Mobile App dev - Angular ionic</p></li>
+<li><p>Ethereum - Truffle Suite ( Ganache, Metamask etc)</p></li>
+<li><p>Smart Contracts - Solidity</p></li>
+<li><p>Central system - Google App Engine for backend API</p></li>
+</ul>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2019, Rahul Gorai
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
