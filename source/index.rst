@@ -17,6 +17,8 @@ Introduction
 
 The project is named as NOOB (NFC Operations on Blockchain) . SpiderTwin Solutions Assignment.
 
+Author - Rahul Gorai
+
 NOOB ( NFC Operations on Blockchain) is an application which is used to track the supply chain
 management of goods using blockchain as an underlying technology. It is a highly scalable mobile 
 application which can be connected to any NFC card to make all the CRUD (Create, Read, Update and Delete)
